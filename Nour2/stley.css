@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 2rem 4rem;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.header-left{
+    width: 40%;
+}
+.header-right{
+    width: 60%;
+    text-align: right;
+}
+.header-right a{
+    margin-left: 60px;
+    text-decoration: none;
+    transition: 0.7s;
+    font-size: 20px;
+}
+.header-right a:hover{
+    color: #0d6efd;
+}
+.slider{
+    padding: 30rem 0;
+    background-position: center;
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg);
+    position: relative;
+    background-size: cover;
+    z-index: -2;
+}
+.slider-mid{
+text-align: center;
+}
+.slider-mid p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+.slider-mid h1{
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+.slider-mid a{
+    background-color: #6168FF;
+    border: 2px solid #6168FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    padding: 13px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.slider-mid a:hover{
+    border:2px solid white ;
+    background-color: transparent;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.mid{
+    padding: 4rem 4rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mid-left{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mid-right{
+    width: 40%;
+    
+}
+.mid-right img{
+    width: 100%;
+    padding-top: 1rem;
+}
+.mid-left .box{
+    width: 50%;
+}
+.mid-left .box{
+    margin-bottom: 20px;
+    padding: 0 5rem;
+} 
+
+#sec2{
+    text-align: center;
+}
+
+.sec2-top h1{   
+        color: black;
+        opacity: 20%;
+        font-size: 90px;
+        text-align: center;
+        left: 50%;   
+        z-index: -1;
+        position: absolute;
+        transform: translateX(-50%);  
+         
+}
+.sec2-top a{
+    color: #6168FF ;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 6rem;
+    text-align: center;
+}
+.sec2-top p{
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    color: #333;
+}
+
+#sec2 .sec2-bottom{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+
+}
+#sec2 .sec2-box{
+    width: 25%;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+#sec2 .sec2-box img{
+    width: 100%;
+    height: 250px;
+}
+#sec2 .sec2-box-bottom{
+    padding: 2rem 2rem;
+    text-align: left;
+}
